@@ -1,0 +1,20 @@
+[project]
+name = "python-release-test"
+version = "1.0.0"
+description = "Package to test distributing Python packages in GitHub repo releases"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["package distribution"] 
+authors = [
+  {name = "Liam Mahoney", email = "liammahoney96@gmail.com" }
+]
+dependencies = []
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/LiamMahoney/python-release-test"
+"Source" = "https://github.com/LiamMahoney/python-release-test"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
