@@ -1,2 +1,2 @@
 def print_version():
-    print("python-release-test version: 1.0.0")
+    print("python-release-test version: 1.1.0")
